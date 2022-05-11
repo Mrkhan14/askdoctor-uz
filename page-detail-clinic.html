@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>Website title</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- plugin: fancybox  -->
+<script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+<link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gmap3/6.0.0/gmap3.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+
+  $("#map").gmap3({
+    map: {
+        options: {
+            center: [45.521646, -73.575450],
+            zoom: 12,
+            disableDefaultUI: true,
+            scrollwheel: true,
+
+            styles: [{
+                featureType: "",
+                elementType: "",
+                stylers: [{
+                    saturation: -10
+                }, {
+                    hue: "#017bba"
+                }, {
+                    visibility: "simplified"
+                }]
+            }]
+        }
+    }
+});
+
+}); 
+// jquery end
+</script>
+
+
+</head>
+<body>
+
+
+
+<div class="screen-overlay"></div>
+
+
+<nav id="offcanvas_bar" class="offcanvas-bar">
+  <button class="btn-close btn btn-sm"><i class="fa fa-times"></i></button>
+  
+  <a href="#" class="btn btn-round btn-primary btn-login"> Kirish </a>
+
+
+  <div class="dropdown d-inline-block">
+    <a href="#" data-toggle="dropdown" class="btn btn-round btn-outline-primary dropdown-toggle"> Uzb </a> 
+    <div class="dropdown-menu">
+      <a href="#" class="dropdown-item"> Rus </a>
+      <a href="#" class="dropdown-item"> Eng </a>
+    </div>
+   </div> <!-- dropdown.// -->
+   <hr> 
+  <ul class="nav-list">
+    <li class="nav-item active"> <a href="#intro">Konsultatsiya</a>  </li>
+    <li class="nav-item"> <a href="#features">Klinikalar</a>  </li>
+    <li class="nav-item"> <a href="#content">Vrachlar</a>  </li>
+    <li class="nav-item"><a href="#">Maqolalar</a></li>
+    <li class="nav-item"><a href="#">Ensiklopedia </a></li>
+    <li class="nav-item"><a href="#">Sanatoriyalar </a></li>
+    <li class="nav-item"><a href="">Bog'lanish</a></li>
+  </ul>
+
+  <a href="" class="btn btn-primary btn-block btn-round">Savol berish</a>
+</nav>
+<!-- offcanvas-bar.// -->
+
+
+<header class="section-header">
+    <div class="mobile-left"> <button data-offcanvas="#offcanvas_bar" data-overlay="true" class="btn btn-outline-primary btn-sm btn-hamburger">  <i class="fas fa-bars"></i> </button> </div>
+    <div class="left mobile-middle">
+        <a href="page-index.html" class="logo"><img src="images/logo.png" class="img-logo"></a>
+        <div class="lang-widget">
+            <div class="btn btn-sm">
+              <a href="#" class="active dropdown-toggle"> Uzb </a> 
+              <div class="dropdown">
+                <a href="#"> Rus </a>
+                <a href="#"> Eng </a>
+              </div>
+            </div>
+        </div> <!-- dropdown.// -->
+    </div>  
+    <div class="middle">
+    <nav class="navbar-expand menu-header">
+      <ul class="nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="page-index.html">Konsultatsiya</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="page-listing-clinics.html">Klinikalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-doctors.html">Vrachlar</a>
+        </li>
+        <li class="nav-item dropdown" data-display="static"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ko'proq </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page-blog.html">Maqolalar</a></li>
+                <li><a class="dropdown-item" href="page-encyclopedia.html">Ensiklopedia </a></li>
+                <li><a class="dropdown-item" href="page-listing-clinics.html">Sanatoriyalar </a></li>
+                <li><a class="dropdown-item" href="">Bog'lanish</a></li>
+              </ul>
+          </li>
+      </ul>
+    </nav>
+    </div>
+    <div class="right">
+       <a class="btn btn-round btn-call btn-sm"> <span class="num">+998 71) 207-22-27</span> <span class="icon-call"> <i class="fa fa-phone"></i> </span> </a>
+       <a href="page-account-user.html" class="btn btn-round btn-primary btn-sm btn-login"> Kirish </a>
+       <a href="#" class="btn-search"> <i class="fa fa-search"></i> </a>
+    </div>
+</header> <!-- section-header.// -->
+
+
+<!-- ========================= SECTION PAGETOP ========================= -->
+<section class="section-pagetop bg-blue">
+<div class="container clearfix">
+  <h2 class="title-page mb-5">Akfa Medline</h2>
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION PAGETOP END// ========================= -->
+
+
+
+<section class="section-content bg padding-y-sm">
+ <div class="container">
+
+
+<div class="row-sm detail-clinic-wrap">
+  <aside class="col-md-4">
+    <article class="card">
+      <img src="images/posts/clinics/2.jpg" class="img-clinic-detail">
+    </article>
+
+    <article class="card card-body">
+      <div class="icontext mb-0">
+          <i class="icon fa fa-clock"></i>
+          <div class="text">
+            <dl class="timing dlist-align">
+              <dt>Пн–Пт: </dt>
+              <dd>08:00-18:00</dd>
+            </dl>
+            <dl class="dlist-align">
+              <dt>Сб: </dt>
+              <dd>08:00-16:00</dd>
+            </dl>
+            <dl class="dlist-align">
+              <dt>Вс: </dt>
+              <dd>Выходной</dd>
+            </dl>
+          </div> <!-- text.// -->
+      </div> <!-- icontext.// -->
+
+    </article> <!-- card.// -->
+
+    <article class="card  card-body">
+      
+      <div class="icontext">
+          <i class="icon fa fa-phone"></i>
+          <p class="text">
+            +998 71 200-88-66  <br> +998 71 260-44-55
+          </p>
+      </div> <!-- icontext.// -->
+
+      <div class="icontext">
+          <i class="icon fa fa-globe"></i>
+          <p class="text">
+            info@hayatmed.uz  <br> www.hayatmed.uz
+          </p>
+      </div> <!-- icontext.// -->
+
+      <div class="icontext">
+          <i class="icon fa fa-map-marker"></i>
+          <p class="text">
+            Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+          </p>
+      </div> <!-- icontext.// -->
+
+    </article> <!-- card.// -->
+
+     <article class="card">
+       
+        <div id="map" class="map-clinic-detail"></div>
+
+        <a href="#" class="text-center p-3"> <img src="images/icons/gmap.png">  Открыть в Google Map  </a>
+     </article>
+  </aside>
+  <main class="col-md-8">
+    <article class="card">
+     <nav class="clinic-detail-tab">
+      <div class="nav">
+        <a class="nav-item nav-link active" data-toggle="tab" href="#tab-clinic-about"> <img class="icon" src="images/icons/clinic-tab/1.svg"> <span>О клинике</span></a>
+        <a class="nav-item nav-link" data-toggle="tab" href="#tab-clinic-serv"> <img class="icon" src="images/icons/clinic-tab/2.svg"> <span>Услуги и цены </span></a>
+        <a class="nav-item nav-link" data-toggle="tab" href="#tab-clinic-doctors"> <img class="icon" src="images/icons/clinic-tab/3.svg"> <span>Врачи</span></a>
+        <a class="nav-item nav-link" data-toggle="tab" href="#tab-clinic-comments"> <img class="icon" src="images/icons/clinic-tab/4.svg"> <span>Отзывы (5)</span></a>
+      </div>
+    </nav>
+
+  <div class="tab-content card-body">
+    <div class="tab-pane fade show active" id="tab-clinic-about">
+      <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины. </p>
+      <p>Диагностическое отделение клиники “ HAYAT ” состоит из: лаборатории, кабинетами УЗИ, МРТ, цифрового рентгена. Кабинетом функциональной диагностики: ЭКГ, холтер, СМАД, ЭЭГ, ЭНМГ.
+      Все диагностические исследования производятся на оборудовании с высоким качествам изображения и дают точные диагностические результаты. Диагностическое отделение оснащена оборудованиями ведущих мировых производителей таких как: Philips (Голландия), Siemens (Германия), Schiller (Швейцария), Roche (Швейцария), Beckman Coulter (США), Abbott (США), Нейрософт (Россия), Chammed (Южная Корея), BTL (Великобритания), Olympus (Япония), Karl Storz (Германия), Carl Zeiss (Германия).
+      Диагностика и лечение пациентов осуществляется новейшими диагностическими и лабораторными оборудованиями под контролем высококвалифицированных врачей и специалистов.</p>
+
+      <p>В КЛИНИКЕ ведут прием врачей по следующим направлениям:</p>
+      <ul>
+        <li>Неврология</li>
+        <li>Терапия</li>
+        <li>Эндокринология</li>
+        <li>Хирургия</li>
+        <li>Гинекология</li>
+        <li>Урология</li>
+        <li>Гастроэнтерология</li>
+        <li>Кардиология</li>
+        <li>Оториноларингология (ЛОР)</li>
+        <li>Офтальмология</li>
+        <li>Педиатрия</li>
+        <li>Аллергология</li>
+      </ul>
+
+      <div class="row-sm clinic-gallery-wrap">
+        <div class="col-md-4"> <a href="images/posts/gallery/1.jpg" data-fancybox=""><img src="images/posts/gallery/1.jpg"></a></div>
+        <div class="col-md-4"> <a href="images/posts/gallery/2.jpg" data-fancybox=""><img src="images/posts/gallery/2.jpg"></a></div>
+        <div class="col-md-4"> <a href="images/posts/gallery/3.jpg" data-fancybox=""><img src="images/posts/gallery/3.jpg"></a></div>
+        <div class="col-md-4"> <a href="images/posts/gallery/4.jpg" data-fancybox=""><img src="images/posts/gallery/4.jpg"></a></div>
+        <div class="col-md-4"> <a href="images/posts/gallery/2.jpg" data-fancybox=""><img src="images/posts/gallery/2.jpg"></a></div>
+        <div class="col-md-4"> <a href="images/posts/gallery/3.jpg" data-fancybox=""><img src="images/posts/gallery/3.jpg"></a></div>
+      </div>
+
+    </div> <!-- tab-pane.// -->
+    <div class="tab-pane" id="tab-clinic-serv">
+      <p class="alert alert-warning">
+        Приведенный ниже прайс-лист является неполным, и представлен для общего ознакомления с ценами клиники. Точную стоимость необходимых услуг Вам озвучит оператор нашего колл-центра при подтверждении записи.
+      </p>
+        <ul class="row list-services-clinic">
+          <li class="col-md-6">
+            <h6 class="title">Эндокринолог</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">MRT - Magnitno Rezonans</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">Urolog</h6>
+           <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">Implant stomatologiya</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">Psixologiya</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">genekolog tekshiruvi</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+          <li class="col-md-6">
+            <h6 class="title">Эндокринолог</h6>
+            <p> <span class="desc">Bolalar uchun oddiy tekshiruv</span> <span class="price">78 000 sum</span></p>
+            <p> <span class="desc">Kattalar uchun tekshiruv </span> <span class="price">25 000 sum</span></p>
+            <p> <span class="desc">Qariyalar uchun mukammal tekshiruv </span> <span class="price">10 000 sum</span></p>
+          </li>
+        </ul>
+    </p>
+    </div> <!-- tab-pane.// -->
+  <div class="tab-pane fade" id="tab-clinic-doctors">
+     
+
+    <div class="item-vrach-clinic">
+      <aside class="img-wrap">
+        <img src="images/posts/doctors/1.jpg" class="img-avatar">
+      </aside>
+      <div class="text-wrap">
+        <span class="job">Психолог</span>
+        <h6 class="title">Dr. Rustam Ahmedov</h6>
+        <a href="#" class="btn btn-primary btn-sm float-right"> Bog'lanish  </a>
+        <p>Tibbiyot fanlar akademigi,  Врач - Отолоринголог в Ташкенте, консультация врача Отолоринголога в Ташкент, прием к Отолорингологу Ташкент</p>
+      </div> <!-- col.// -->
+    </div> <!-- item-vrach-clinic.// -->
+
+    <div class="item-vrach-clinic">
+      <aside class="img-wrap">
+        <img src="images/posts/doctors/2.jpg" class="img-avatar">
+      </aside>
+      <div class="text-wrap">
+        <span class="job">Gastrolog</span>
+        <h6 class="title">Dr. Ahmed Hasanboy</h6>
+        <a href="#" class="btn btn-primary btn-sm float-right"> Bog'lanish  </a>
+        <p>Tibbiyot fanlar akademigi,  Врач - Отолоринголог в Ташкенте, консультация врача Отолоринголога в Ташкент, прием к Отолорингологу Ташкент</p>
+      </div> <!-- col.// -->
+    </div> <!-- item-vrach-clinic.// -->
+
+    <div class="item-vrach-clinic">
+      <aside class="img-wrap">
+        <img src="images/posts/doctors/3.jpg" class="img-avatar">
+      </aside>
+      <div class="text-wrap">
+        <span class="job">Terapevt</span>
+        <h6 class="title">Dr. Alibek Eshmatvoy</h6>
+        <a href="#" class="btn btn-primary btn-sm float-right"> Bog'lanish  </a>
+        <p>Tibbiyot fanlar akademigi,  Врач - Отолоринголог в Ташкенте, консультация врача Отолоринголога в Ташкент, прием к Отолорингологу Ташкент</p>
+      </div> <!-- col.// -->
+    </div> <!-- item-vrach-clinic.// -->
+
+    <div class="item-vrach-clinic">
+      <aside class="img-wrap">
+        <img src="images/posts/doctors/4.jpg" class="img-avatar">
+      </aside>
+      <div class="text-wrap">
+        <span class="job">Психолог</span>
+        <h6 class="title">Dr. Toshmatvoy Ahmedov</h6>
+        <a href="#" class="btn btn-primary btn-sm float-right"> Bog'lanish  </a>
+        <p>Tibbiyot fanlar akademigi,  Врач - Отолоринголог в Ташкенте, консультация врача Отолоринголога в Ташкент, прием к Отолорингологу Ташкент</p>
+      </div> <!-- col.// -->
+    </div> <!-- item-vrach-clinic.// -->
+
+    <div class="item-vrach-clinic">
+      <aside class="img-wrap">
+        <img src="images/posts/doctors/3.jpg" class="img-avatar">
+      </aside>
+      <div class="text-wrap">
+        <span class="job">Психолог</span>
+        <h6 class="title">Dr. Rustam Ahmedov</h6>
+        <a href="#" class="btn btn-primary btn-sm float-right"> Bog'lanish  </a>
+        <p>Tibbiyot fanlar akademigi,  Врач - Отолоринголог в Ташкенте, консультация врача Отолоринголога в Ташкент, прием к Отолорингологу Ташкент</p>
+      </div> <!-- col.// -->
+    </div> <!-- item-vrach-clinic.// -->
+  </div> <!-- tab-pane.// -->
+  <div class="tab-pane fade" id="tab-clinic-comments">
+       <span class="text-muted float-right">12.06.2019</span>
+    <h6>Ahmadboy Pistoncha</h6>
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+     <hr>
+     <span class="text-muted float-right">12.06.2019</span>
+     <h6>Ahmadboy Pistoncha</h6>
+    
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+     
+  </div> <!-- tab-pane.// -->
+
+  </div> <!-- tab-content card-body.// -->
+    </article>
+
+    <a href="#" class="btn btn-outline-secondary"> <i class="fa fa-arrow-left"></i> Boshqa klinikalar</a>
+
+  </main>
+</div> <!-- row.// -->
+
+
+
+ </div> <!-- container //  -->
+</section>
+
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer bg-blue">
+  <section class="footer-top">
+     <div class="container">
+        <nav class="nav-footer nav justify-content-center">
+          <a href="" class="nav-link">Konsultatsiya</a>
+          <a href="" class="nav-link">Ensiklopedia</a>
+          <a href="" class="nav-link">Maqolalar</a>
+          <a href="" class="nav-link">Doktorlar uchun</a>
+          <a href="" class="nav-link">Servis haqida</a>
+          <a href="" class="nav-link">Bog'lanish</a>
+        </nav>
+     </div>
+  </section> <!-- footer-top .// -->
+  <section class="footer-bottom text-center">
+    <img src="images/misc/payment.png">
+    <p class="text-white mt-3">
+      © 2019 AskDoktor MCHJ xizmat ko’rsatadi <br>
+      Barcha huquqlar himoyalangan
+    </p>
+  </section> <!-- footer-bottom .// -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+</html>

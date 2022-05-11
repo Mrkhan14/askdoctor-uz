@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>website title</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+  window_h =  $(window).height();
+  panel_bottom_h =  $('.panel-bottom').outerHeight();
+  panel_history_h =  window_h - panel_bottom_h - 91;
+  $('.panel-history').css('height', panel_history_h);
+
+  $(window).on('resize', function(){
+          window_h =  $(window).height();
+          panel_bottom_h =  $('.panel-bottom').outerHeight();
+          panel_history_h =  window_h - panel_bottom_h - 91;
+          $('.panel-history').css('height', panel_history_h);
+  });
+
+}); 
+// jquery end
+</script>
+
+</head>
+<body style="padding-top: 0;">
+
+
+
+<section class="section-window-chat">
+<header class="header-chat"> 
+
+    <div class="row no-gutters">
+      <div class="col-md-7">
+          <div class="title-chat-wrap">
+            <h2 class="title">User bilan muloqot</h2>
+             <p class="text-muted">Boshlandi: 12.10.2019</p>
+          </div>
+      </div> <!-- col.// -->
+      <div class="col-md-5 text-md-right">
+         <a href="page-account-consult-detail.html" class="btn btn-sm btn-light">Tugatish</a>
+         <a href="" class="btn px-2 text-primary"> <i class="fa fa-lg fa-phone"></i></a>
+         <a href="" class="btn px-2 text-danger"> <i class="fa fa-lg fa-video"></i></a>
+         <a class="btn-account-user" href="page-doctors-profile.html">  <span class="icon-avatar"><i class="fa fa-user"></i></span> </a>
+      </div> <!-- col.// -->
+    </div> <!-- row.// -->
+</header>
+
+<div class="row no-gutters"  style="height: calc(100vh - 91px)">
+  <aside class="col-md-3 relative chat-aside-left">
+   <div class="chat-left-wrap">
+      <article class="chat-user-info">
+        <img src="images/avatars/user.jpg" class="img-md img-avatar">
+        <h5 class="title">Iroda Rustamova</h5>
+        <p class="text-muted">32 yosh</p>
+
+        <div class="chat-files">
+          <h6 class="title">USERNING SHAXSIY FAYLLARI</h6>
+
+          <ul class="filemanager-chat">
+            <li>
+              <a href="" class="title-folder"><i class="icon-action fa fa-caret-right"></i>  <i class="icon fa fa-folder"></i> Kasallik A xulosalari - papka nomi</a>
+              <a href="#" class="file">
+                <i class="fa fa-file icon"></i> 
+                Kasallik_nomi_hayat.docx  <br> 
+                <time class="date">12.06.2019</time>
+              </a>
+              <a  href="#" class="file">
+                <i class="fa fa-file icon"></i> 
+                gripp_xulosa_medline.jpg <br> 
+                 <time class="date">12.06.2019</time>
+              </a>
+            </li>
+            <li>
+              <a href="" class="title-folder"><i class="icon-action fa fa-caret-right"></i>  <i class="icon fa fa-folder"></i> Gripp xulosalari - papka nomi</a>
+            </li>
+            <li>
+              <a href="" class="title-folder"><i class="icon-action fa fa-caret-right"></i>  <i class="icon fa fa-folder"></i> Kasallik XYZ xulosalari - papka nomi</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+   </div> <!-- chat-left-wrap.// -->
+  </aside>
+  <main class="col-md-9">
+    <div class="panel-history" style="">
+      <article class="chat-main-wrap">
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Salom Alisher aka, Men Terapevt, sizni nima bezovta qilyapti?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Salom doktor meni kasalligim shuki, oshqozonim kechasi ovqat yaxshi hazm qilmayapti, uxlolmayapman</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Tushunarli, Sizda demak oshqozon ovqat hazm qilish tizimida muammo bor ekan, Siz har kuni kechqurunlari nima ovqatlar iste'mol qilasiz? </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Asosan yog’li va go’shtli taomlar yeyman… :) </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Bunday ovqatlar sizga kechqurun tavsiya etilmaydi. Agar boshqa ovqat yeganda o’zingizni qanday his qilasiz?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Agar ovqatdan so'ng meva yesam yaxshi his qilaman, hazm qilish oson bo’ladi  </div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Tushunarli, Sizda demak oshqozon ovqat hazm qilish tizimida muammo bor ekan, Siz har kuni kechqurunlari nima ovqatlar iste'mol qilasiz? </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Asosan yog’li va go’shtli taomlar yeysizmi? </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/user.jpg"></div>
+          <div class="text-wrap">Bunday ovqatlar ko'pincha kechqurun  yeyman. Agar boshqa ovqat yeganda o’zimni yomon his qilaman</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Tuzalib keting, va albatta qabulimda kutaman sizni  </div>
+        </div>
+
+      </article>
+    </div> <!-- card-body.// -->
+    <div class="panel-bottom">
+       <textarea class="form-control" placeholder="Bemorga javob yozing"></textarea>
+       <div class="chat-btn-wrap">     
+         <button class="btn"> <i class="fas fa-lg fa-paperclip"></i> </button>
+         <button class="btn"> <i class="fas fa-lg fa-paper-plane"></i> </button>
+       </div> <!-- chat-btn-wrap.// -->
+    </div>
+    
+  </main>
+</div>
+
+</section>
+
+
+
+
+</body>
+</html>

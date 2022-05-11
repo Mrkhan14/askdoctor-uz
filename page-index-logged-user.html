@@ -1,0 +1,967 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>Askdoctor title</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- plugin: slickslider -->
+<link href="plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+<link href="plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+<script src="plugins/slickslider/slick.min.js"></script>
+
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+
+}); 
+// jquery end
+</script>
+
+</head>
+<body>
+
+<div class="screen-overlay"></div>
+
+
+<div id="searchbox" class="searchbox">
+  <span class="btn btn-sm btn-close-searchbox" id="btn_searchbox_close" title="Close Overlay"><i class="fa fa-times"></i></span>
+  <div class="searchbox-content">
+    <form action="page-search.html"  class="form-search-page">
+       <div>
+          <input type="text" id="searchinput_header" autocomplete="off" class="form-control" name="" placeholder="Поиск клиник">
+          <button type="submit" class="btn-search-page"> <i class="fa fa-search"></i></button>
+      </div>
+     
+      <ul class="list-searchbox">
+        <li>Magnitno rezonans - MRT</li>
+        <li>Magniy va kalsiy</li>
+        <li>Magamed Toshmatov</li>
+        <li>Qandaydur magnitogorsk shahri</li>
+        <li>Ajoyib bir magazin</li>
+      </ul>
+    </form>
+  </div>
+</div>
+
+
+<nav id="offcanvas_bar" class="offcanvas-bar">
+  <button class="btn-close btn btn-sm"><i class="fa fa-lg fa-times"></i></button>
+  
+  <div class="dropdown">
+    <a href="#" data-toggle="dropdown" class="btn btn-round btn-outline-primary dropdown-toggle"> Uzb </a> 
+    <div class="dropdown-menu">
+      <a href="#" class="dropdown-item"> Rus </a>
+      <a href="#" class="dropdown-item"> Eng </a>
+    </div>
+   </div> <!-- dropdown.// -->
+   <hr>
+    
+    <div class="icontext align-items-center">
+      <span class="icon"><span class="btn-account-user"><i class="icon-avatar fa fa-user"></i></span></span>
+      <span class="text">Muslimbek <br> +998946875461</span>
+    </div>
+
+   <ul class="nav-list">
+    <li class="nav-item active"> <a href="#intro">Med kartam</a>  </li>
+    <li class="nav-item"> <a href="#features">Vrachlarim</a>  </li>
+    <li class="nav-item"> <a href="#content">Profilim</a>  </li>
+  </ul>
+   <hr> 
+  <ul class="nav-list">
+    <li class="nav-item active"> <a href="#intro">Konsultatsiya</a>  </li>
+    <li class="nav-item"> <a href="#features">Klinikalar</a>  </li>
+    <li class="nav-item"> <a href="#content">Vrachlar</a>  </li>
+    <li class="nav-item"><a href="#">Maqolalar</a></li>
+    <li class="nav-item"><a href="#">Ensiklopedia </a></li>
+    <li class="nav-item"><a href="#">Sanatoriyalar </a></li>
+    <li class="nav-item"><a href="">Bog'lanish</a></li>
+  </ul>
+
+  <a href="" class="btn btn-primary btn-block btn-round">Savol berish</a>
+</nav>
+<!-- offcanvas-bar.// -->
+
+
+<div class="main-wrap">
+
+<header class="section-header">
+    <div class="mobile-left"> <button data-offcanvas="#offcanvas_bar" data-overlay="true" class="btn btn-outline-primary btn-sm btn-hamburger">  <i class="fas fa-bars"></i> </button> </div>
+    <div class="left mobile-middle">
+        <a href="page-index.html" class="logo"><img src="images/logo.png" class="img-logo"></a>
+        <div class="lang-widget">
+            <div class="">
+              <a href="#" class="btn btn-sm dropdown-toggle"> Uzb </a> 
+              <div class="dropdown">
+                <a href="#" class="dropdown-item"> Rus </a>
+                <a href="#" class="dropdown-item"> Eng </a>
+              </div>
+            </div>
+        </div> <!-- dropdown.// -->
+    </div>  
+    <div class="middle">
+    <nav class="navbar-expand menu-header">
+      <ul class="nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="page-index.html">Konsultatsiya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-clinics.html">Klinikalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-doctors.html">Vrachlar</a>
+        </li>
+        <li class="nav-item dropdown" data-display="static"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ko'proq </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page-blog.html">Maqolalar</a></li>
+                <li><a class="dropdown-item" href="page-encyclopedia.html">Ensiklopedia </a></li>
+                <li><a class="dropdown-item" href="page-listing-clinics.html">Sanatoriyalar </a></li>
+                <li><a class="dropdown-item" href="">Bog'lanish</a></li>
+              </ul>
+          </li>
+      </ul>
+    </nav>
+    </div>
+    <div class="right">    
+       <a class="nav-link nav-link-user" href="page-account-user.html"><i class="fas fa-file-medical"></i> <span class="link-text">Med kartam</span></a>
+       <a class="btn-account-user" href="page-account-user.html"> <span class="notify">2</span> <span class="icon-avatar"><i class="fa fa-user"></i></span> </a>
+       <a class="btn btn-round btn-call btn-sm"> <span class="num">+99871 207-22-27</span> <span class="icon-call"> <i class="fa fa-phone"></i> </span> </a>
+       <a href="#" class="btn-search" id="btn_search_header"> <i class="fa fa-search"></i> </a>
+    </div>
+</header> <!-- section-header.// -->
+
+
+
+
+<section class="section-intro">
+<div class="slick-intro">
+  <div class="item-slide-intro">
+         <span class="bg-shape">
+           <img src="images/bg/intro/doctor.png" class="img-intro-doctor">
+         </span>
+         <div class="container">
+          <h1 class="title-intro">
+           Ishonchli doktorlar <br>  bilan onlayn muloqot 
+          </h1>
+          <img src="images/bg/intro/contact-elements.png" class="intro-decor">
+        </div> <!-- container .//  -->
+  </div> <!--  slide-item.// -->
+
+  <div class="item-slide-intro">
+       <span class="bg-shape"></span>
+       <div class="container">
+          <h1 class="title-intro"> Har doim sizning  <br> yordamingizga tayyor </h1>
+          <div class="intro-cpu-wrap">
+             <img class="people people1" src="images/bg/intro/people/1.jpg">
+             <img class="people people2" src="images/bg/intro/people/2.jpg">
+             <img class="people people3" src="images/bg/intro/people/3.jpg">
+             <img class="people people4" src="images/bg/intro/people/4.jpg">
+             <img class="people people5" src="images/bg/intro/people/5.jpg">
+             <img src="images/bg/intro/cpu.png" class="img-intro-cpu">
+          </div>
+          <img src="images/bg/intro/lemon.png" class="intro-decor"> 
+      </div> <!-- container .//  -->
+  </div> <!--  slide-item.// -->
+
+</div>
+
+</section>
+
+
+<!-- ========================= SECTION TOPIC SELECT ========================= -->
+<section class="section-content padding-top">
+<div class="container">
+<header class="section-heading">
+	<h2 class="title-section-sm">Qaysi mavzuda?</h2>
+</header><!-- sect-heading -->
+
+<div class="row row-sm category-dard minimized">
+  <div class="col-md-2 col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/1.png">
+        </div>
+        <span class="title">Bosh og'riqi</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2 col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/13.png">
+        </div>
+        <span class="title">Homiladorlik</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/4.png">
+        </div>
+        <span class="title">Buyrak kasalliklari</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/5.png">
+        </div>
+        <span class="title">Tishlar bo'yicha</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/6.png">
+        </div>
+        <span class="title">Teri kasalliklari</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/7.png">
+        </div>
+        <span class="title">O'pkada muammo</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/8.png">
+        </div>
+        <span class="title">Jinsiy muammo</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/9.png">
+        </div>
+        <span class="title">Jigar kasalliklari</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6 col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/10.png">
+        </div>
+        <span class="title">Yurak muammosi</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6  col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/11.png">
+        </div>
+        <span class="title">Oshqozon va ichak</span>
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-md-2  col-6  col-dard visible">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/12.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/13.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/1.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/2.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/3.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/4.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/5.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+    <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/2.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/3.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/4.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2  col-6 col-dard">
+    <a href="page-consult-express.html" class="item-dard">
+        <div class="icon-wrap">
+          <img src="images/icons/dard/5.png">
+        </div>
+        <span class="title">Og'izda muammo</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2 col-6 col-expand">
+    <a href="#" class="item-dard control btn-dard-expand">
+        <div class="icon-wrap">
+          <i class="fa fa-lg fa-chevron-down"></i>
+        </div>
+        <span class="title">Ko'proq</span>
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-md-2 col-6 col-minimize">
+    <a href="#" class="item-dard control btn-dard-minimize">
+        <div class="icon-wrap">
+          <i class="fa fa-lg fa-chevron-up"></i>
+        </div>
+        <span class="title">Kamroq</span>
+    </a>
+  </div> <!-- col.// -->
+
+</div> <!-- row.// -->
+
+
+</div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION TOPIC SELECT END// ========================= -->
+
+
+<!-- ========================= SECTION CONSULT SELECT ========================= -->
+<section id="consult_start" class="section-content padding-y">
+<div class="container">
+
+<header class="section-heading">
+  <h2 class="title-section-sm">Mutaxassis kerakmi?</h2>
+</header><!-- sect-heading -->
+
+<div class="row row-sm category-specialist minimized">
+ <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Genekolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/1.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Pediatr</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/2.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Dematolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/3.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Travmatolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/4.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Nevrolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/5.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Stomatolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/6.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Terapevt</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/7.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Psixolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/8.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Lor vrach</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/9.jpg">
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-lg-4 col-sm-6 col-specialist-hidden">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Oftalmolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/1.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6 col-specialist-hidden">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Psixoterapevt</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/2.jpg">
+    </a>
+  </div> <!-- col.// -->
+  <div class="col-lg-4 col-sm-6 col-specialist-hidden">
+    <a href="page-consult-detail.html" class="item-specialist">
+      <div class="text-wrap">
+        <h5 class="title">Allergolog</h5>
+        <p>Qisqacha matn bu genekolog ishi haqida, lorem ipsum demo text here always</p>
+      </div>
+      <span class="btn btn-primary"> Muloqotni boshlash</span>
+      <img class="bg-special" src="images/items/specialist/3.jpg">
+    </a>
+  </div> <!-- col.// -->
+
+  <div class="col-12">
+    <a href="#" class="btn btn-block btn-light btn-specialist-expand"> Yana ko'proq </a>
+  </div>
+</div> <!-- row.// -->
+
+
+
+</div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONSULT SELECT END// ========================= -->
+
+
+
+<!-- ========================= SECTION STAT ========================= -->
+<section class="section-why padding-y bg-doctor">
+<div class="container" style="max-width: 940px;">
+  <header class="section-heading text-center">
+      <h2 class="title-section text-white">Nega bizni tanlaydilar</h2>
+      <i class="line bg-white"></i>
+  </header><!-- sect-heading -->
+
+  <div class="row" id="counter-stat-wrap">
+    <div class="col-lg-3 col-md-3 col-6">
+      <figure class="item-stat">
+        <div class="icon-wrap"><img src="images/icons/why/1.png"></div>
+        <h3 class="num-counter" data-count="119">11</h3>
+        <p class="title"> Klinika haqida <br> malumot</p>
+      </figure>
+    </div> <!-- col.// -->
+    <div class="col-lg-3 col-md-3  col-6">
+      <figure class="item-stat">
+        <div class="icon-wrap"><img src="images/icons/why/2.png"></div>
+        <h3 class="num-counter" data-count="752">75</h3>
+        <p class="title"> Eng malakali <br> shifokorlar</p>
+      </figure>
+    </div> <!-- col.// -->
+    <div class="col-lg-3 col-md-3  col-6">
+      <figure class="item-stat">
+        <div class="icon-wrap"><img src="images/icons/why/3.png"></div>
+        <h3 class="num-counter" data-count="1520">152</h3>
+        <p class="title"> Konsultatsiya <br> berildi</p>
+      </figure>
+    </div> <!-- col.// -->
+    <div class="col-lg-3 col-md-3  col-6">
+      <figure class="item-stat">
+        <div class="icon-wrap"><img src="images/icons/why/4.png"></div>
+        <h3 class="num-counter" data-count="351">35</h3>
+        <p class="title"> Userlar <br> saytga a'zo</p>
+      </figure>
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION STAT .//END ========================= -->
+
+
+
+<!-- ========================= SECTION ASIDE ========================= -->
+<section class="section-talk padding-y">
+<div class="container">
+
+<div class="row">
+  <div class="col-lg-6 mobile-hide">
+  <figure class="aside-talk-wrap tab-content">
+
+    <article class="aside-talk-content tab-pane aside-chat active" id="aside_chat">
+        <div class="aside-chat-wrap">
+          <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Salom Alisher aka, Men Terapevt, sizni nima bezovta qilyapti?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Salom doktor meni kasalligim shuki, oshqozonim kechasi ovqat yaxshi hazm qilmayapti, uxlolmayapman</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Tushunarli, Sizda demak oshqozon ovqat hazm qilish tizimida muammo bor ekan, Siz har kuni kechqurunlari nima ovqatlar iste'mol qilasiz? </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Asosan yog’li va go’shtli taomlar yeyman… :) </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Bunday ovqatlar sizga kechqurun tavsiya etilmaydi. Agar boshqa ovqat yeganda o’zingizni qanday his qilasiz?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Agar ovqatdan so'ng meva yesam yaxshi his qilaman, hazm qilish oson bo’ladi  </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Faqatgina yog’ va go’shtli mahsulotlar qiynamoqda</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Bu katta muammo emas aslida, siz  1 oy davomida yog’li mahsulotlarni iste'mol qilmang, ko’proq toza suv ichib turing </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">2 hafta mobaynida har kun Mezim tabletkasini  3 mahal ovqatdan so'ng iching, ovqatdan keyin 1 piyola limon choy iching.   Sovuq va qaynoq narsalar umuman iste'mol qilmang. Oshqozoningizni zont yutish orqali tekshirish tavsiya etiladi. Mening qabulimga kelsangiz klinikamizda bir necha labaratoriya tekshiruvlarni amalga oshiramiz. </div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Hammasi tushunarlimi?</div>
+        </div>
+         <div class="message-right">
+          <div class="text-wrap">Ha bo’ldi tushundim</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/illustration/avatar-doc.png"></div>
+          <div class="text-wrap">Tuzalib keting, yordam kerak bo’lsa Askdoctor orqali menga murojaat qilishingiz mumkin. </div>
+        </div>
+        </div>
+
+         <span class="shape-circle-talk"></span>
+    </article> <!-- aside-talk-content.// -->
+
+    <article class="aside-talk-content tab-pane" id="aside_call"> 
+      <div class="aside-call-wrap">
+         <video autoplay muted loop>
+          <source src="images/video/video_phone.mp4" type="video/mp4">
+        </video>
+      </div>
+    </article> <!-- aside-talk-content.// -->
+
+    <article class="aside-talk-content tab-pane" id="aside_video">
+       <div class="aside-videochat-wrap">
+         <video autoplay muted loop>
+        <source src="images/video/video_videochat.mp4" type="video/mp4">
+      </video>
+       </div>
+    </article> <!-- aside-talk-content.// -->
+
+  </figure>
+
+  </div> <!-- col.// -->
+  <div class="col-lg-6 d-flex align-items-center">
+     <article class="article aside-info-right">
+     <header class="section-heading">
+        <h2 class="title-section text-dark">Doktorlar yoningizda <br> bo'lmasa</h2>
+        <i class="line"></i>
+    </header><!-- sect-heading -->
+      
+      <div class="btn-tabs-slide nav nav-pills mobile-hide mb-4">
+        <a href="#aside_chat"  data-toggle="pill" class="active"> <i class="fa fa-comment-dots"></i> Chat</a>
+        <a href="#aside_call" data-toggle="pill">  <i class="fa fa-phone"></i> Telefon</a>
+        <a href="#aside_video" data-toggle="pill">  <i class="fa fa-video"></i> Video</a>
+      </div>
+
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't </p>
+      <a href="#consult_start" class="page-scroll btn btn-primary">Muloqotni boshlash</a>
+     </article>
+
+  </div> <!-- col.// -->
+</div>
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION TALK .//END ========================= -->
+
+
+
+<!-- ========================= SECTION MAP ========================= -->
+<section class="section-content padding-y">
+<div class="container">
+<div class="row">
+  <div class="col-lg-6 d-flex align-items-center">
+ <article class="article aside-info-left">
+    <header class="section-heading">
+     <h2 class="title-section text-dark">Istalgan payt <br> istalgan joydan</h2>
+     <i class="line"></i>
+    </header><!-- sect-heading -->
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't </p>
+      <a href="#consult_start" class="page-scroll btn btn-primary">Muloqotni boshlash</a>
+ </article>
+  </div> <!-- col.// -->
+  <div class="col-lg-6">
+  <figure class="aside-round-map">
+    <img class="people people1" src="images/illustration/map-people1.png">
+    <img class="people people2" src="images/illustration/map-people2.png">
+    <img class="people people3" src="images/illustration/map-people3.png">
+    <img class="people people4" src="images/illustration/map-people4.png">
+    <span class="shape-circle-map"> <img class="img-map" src="images/illustration/uzb.png"> </span>
+  </figure>
+  </div> <!-- col.// -->
+</div> <!-- row.// -->
+
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION MAP .//END ========================= -->
+
+
+
+
+<!-- ========================= SECTION FEATURE ========================= -->
+<section class="section-content padding-y bg-blue">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <figure class="item-feature">
+        <div> <span class="icon-wrap"><img src="images/icons/feature/1.png"></div> </span>
+        <div class="text-wrap">
+          <h5 class="title">Maxfiylik kafolatlanadi</h5>
+          <p>Qisqacha matn bu afzallik turi haqida, lorem ipsum demo text is here always</p>
+        </div>
+      </figure>
+    </div> <!-- col.// -->
+    <div class="col-lg-4 col-md-6">
+      <figure class="item-feature">
+         <div> <span class="icon-wrap"><img src="images/icons/feature/2.png"></div> </span>
+         <div class="text-wrap">
+          <h5 class="title">Saralangan shifokorar</h5>
+          <p>Qisqacha matn bu afzallik turi haqida, lorem ipsum demo text is here always</p>
+        </div>
+      </figure>
+    </div> <!-- col.// -->
+    <div class="col-lg-4 col-md-6">
+      <figure class="item-feature">
+        <div> <span class="icon-wrap"><img src="images/icons/feature/3.png"></div> </span>
+        <div class="text-wrap">
+          <h5 class="title">Sutka davomida 24/7 </h5>
+          <p>Qisqacha matn bu afzallik turi haqida, lorem ipsum demo text is here always</p>
+        </div>
+      </figure>
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION FEATURE .//END ========================= -->
+
+
+
+
+
+<!-- ========================= SECTION FAQ ========================= -->
+<section class="section-faq bg-faq padding-y bg">
+<div class="container">
+
+  <header class="section-heading">
+     <h2 class="title-section text-dark">Tez-tez so’ralgan savollar</h2>
+     <i class="line"></i>
+  </header><!-- sect-heading -->
+
+  <div class="row">
+    <div class="col-lg-10">
+      
+
+<article class="faq-wrap">
+  <dl class="accordion">
+  <dt class="title active"> Doktorlar savolimga qancha vaqtda javob beradilar?  <i class="icon fa fa-chevron-down"></i> </dt>
+  <dd> <p>demo text, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal  of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p></dd>
+
+  <dt class="title">  Agar savolimga javob ololmasam pulimni kuyadimi?  <i class="icon fa fa-chevron-down"></i>  </dt>
+  <dd> <p>demo text, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal  of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p></dd>
+
+  <dt class="title">  Nega xizmat pullik bo'lgan? <i class="icon fa fa-chevron-down"></i>  </dt>
+  <dd> <p>demo text, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal  of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p></dd>
+
+  <dt class="title">  Menga dorilar ham yozib berasizmi?  <i class="icon fa fa-chevron-down"></i> </dt>
+  <dd> <p>demo text, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal  of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p></dd>
+
+  <dt class="title">  Doktorlar qancha vaqtda savolimga javob beradi? <i class="icon fa fa-chevron-down"></i></dt>
+  <dd> <p>demo text, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal  of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p></dd>
+</dl>
+</article>
+
+
+
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION FAQ .//END ========================= -->
+
+
+
+
+
+<!-- ========================= SECTION BLOG ========================= -->
+<section class="section-content padding-y">
+<div class="container">
+
+  <header class="section-heading">
+     <h2 class="title-section text-dark">Maqola va tavsiyalar</h2>
+     <i class="line"></i>
+  </header><!-- sect-heading -->
+
+  <div class="row">
+    <div class="col-lg-3"> 
+
+      <article class="item-article-home">
+        <a href="#">
+          <div class="img-wrap"><img src="images/posts/1.jpg"></div>
+          <time class="date"><i class="fa fa-clock"></i> 12.07.2019</time>
+          <h4 class="title">Suv ichishning foydalari va eng yaxshi suvlar haqida</h4>
+        </a>
+      </article>
+
+    </div> <!-- col.// -->
+    <div class="col-lg-3"> 
+      <article class="item-article-home">
+        <a href="#">
+          <div class="img-wrap"><img src="images/posts/2.jpg"></div>
+          <time class="date"><i class="fa fa-clock"></i> 12.07.2019</time>
+          <h4 class="title">Allergiya nima va unga qarshi eng kuchli dorilar?</h4>
+        </a>
+      </article>
+    </div> <!-- col.// -->
+    <div class="col-lg-3"> 
+      <article class="item-article-home">
+        <a href="#">
+          <div class="img-wrap"><img src="images/posts/3.jpg"></div>
+          <time class="date"><i class="fa fa-clock"></i> 22.07.2019</time>
+          <h4 class="title">Ibn sino qanday dorilar tavsiya etgan edi</h4>
+        </a>
+      </article>
+    </div> <!-- col.// -->
+    <div class="col-lg-3"> 
+      <article class="item-article-home">
+        <a href="#">
+          <div class="img-wrap"><img src="images/posts/4.jpg"></div>
+          <time class="date"><i class="fa fa-clock"></i> 17.07.2018</time>
+          <h4 class="title">Ibn sino qanday dorilar tavsiya etgan edi</h4>
+        </a>
+      </article>
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION BLOG .//END ========================= -->
+
+
+
+
+<!-- ========================= SECTION APP ========================= -->
+<section class="section-content padding-top bg">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7"> 
+      <header class="section-heading">
+        <h2 class="title-section text-dark">Mobil ilovada barcha doktorlar  <br> qo'l ostingizda</h2>
+        <i class="line"></i>
+      </header><!-- sect-heading -->
+      <p>Mobil dastur linkini sms qilib jo’natamiz</p>
+      <form class="form-inline form-app-sms">
+          <select class="form-control code-country">
+             <option>+998</option>
+             <option>+997</option>
+             <option>+997</option>
+          </select>
+          <input type="text" class="form-control number-phone" name="" placeholder="kod - telefon">
+          <button class="btn btn-primary btn-rect"> Jo'natish </button>
+
+      </form>
+
+      <div class="btn-app-wrap">
+        <a href="" data-toggle="tooltip" title="For Apple products" data-placement="bottom"><img src="images/misc/app1.svg"></a>
+        <a href="" data-toggle="tooltip" title="For Android products" data-placement="bottom"><img src="images/misc/app2.svg"></a>
+      </div>
+    </div> <!-- col.// -->
+    <div class="col-lg-5"> 
+        <div class="img-mobile-wrap"><img src="images/misc/mobile.png"></div>
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION APP .//END ========================= -->
+
+
+
+
+<!-- ========================= SECTION APP ========================= -->
+<section class="section-content padding-y">
+<div class="container" style="max-width: 980px;">
+   <header class="section-heading text-center">
+        <h2 class="title-section text-dark">Bizni doimo kuzating</h2>
+  </header><!-- sect-heading -->
+
+  <div class="row">
+    <div class="col-md col-6"> 
+      <a href="#" class="item-social"> <img class="icon" src="images/icons/social/fb.svg"> <span>/askdoctor_oficcial</span></a>    
+    </div> <!-- col.// -->
+    <div class="col-md col-6"> 
+      <a href="#" class="item-social">  <img class="icon" src="images/icons/social/twitter.svg"> <span>/askdoctor_uz</span></a>    
+    </div> <!-- col.// -->
+    <div class="col-md col-6"> 
+      <a href="#" class="item-social">  <img class="icon" src="images/icons/social/insta.svg"> <span>@askdoctor_uz</span></a>    
+    </div> <!-- col.// -->
+    <div class="col-md col-6"> 
+      <a href="#" class="item-social">  <img class="icon"  src="images/icons/social/telegram.svg"> <span>@askdoctor_uz</span></a>    
+    </div> <!-- col.// -->
+  </div> <!-- row.// -->
+
+</div> <!-- container.// -->
+</section> 
+<!-- ========================= SECTION APP .//END ========================= -->
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer bg-blue">
+  <section class="footer-top">
+     <div class="container">
+        <nav class="nav-footer nav justify-content-center">
+          <a href="" class="nav-link">Konsultatsiya</a>
+          <a href="" class="nav-link">Ensiklopedia</a>
+          <a href="" class="nav-link">Maqolalar</a>
+          <a href="" class="nav-link">Doktorlar uchun</a>
+          <a href="" class="nav-link">Servis haqida</a>
+          <a href="" class="nav-link">Bog'lanish</a>
+        </nav>
+     </div>
+  </section> <!-- footer-top .// -->
+  <section class="footer-bottom text-center">
+    <img src="images/misc/payment.png">
+    <p class="text-white mt-3">
+      © 2019 AskDoktor MCHJ xizmat ko’rsatadi <br>
+      Barcha huquqlar himoyalangan
+    </p>
+  </section> <!-- footer-bottom .// -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+</div> 
+<!-- main-wrap .end// -->
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>website title</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+  window_h =  $(window).height();
+  panel_bottom_h =  $('.panel-bottom').outerHeight();
+  panel_history_h =  window_h - panel_bottom_h - 91;
+  $('.panel-history').css('height', panel_history_h);
+
+  $(window).on('resize', function(){
+          window_h =  $(window).height();
+          panel_bottom_h =  $('.panel-bottom').outerHeight();
+          panel_history_h =  window_h - panel_bottom_h - 91;
+          $('.panel-history').css('height', panel_history_h);
+  });
+
+}); 
+// jquery end
+</script>
+
+</head>
+<body style="padding-top: 0;">
+
+<section class="collapse" id="menu_external">
+   <header class="section-header shadow-none bg" style="position: relative;">
+    <div>
+        <a href="page-index.html" class="logo"><img src="images/logo.png" class="img-logo"></a>
+    </div>  
+
+    <nav class="navbar-expand menu-header">
+      <ul class="nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="page-index.html">Konsultatsiya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-clinics.html">Klinikalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-doctors.html">Vrachlar</a>
+        </li>
+        <li class="nav-item dropdown" data-display="static"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ko'proq </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page-blog.html">Maqolalar</a></li>
+                <li><a class="dropdown-item" href="page-encyclopedia.html">Ensiklopedia </a></li>
+                <li><a class="dropdown-item" href="page-listing-clinics.html">Sanatoriyalar </a></li>
+                <li><a class="dropdown-item" href="">Bog'lanish</a></li>
+              </ul>
+          </li>
+      </ul>
+    </nav>
+    <div>
+     <a class="btn btn-round btn-call btn-sm" href="tel:+998712072227"> <span class="num">+99871 207-22-27</span> <span class="icon-call"> <i class="fa fa-phone"></i> </span> </a>  
+    </div>
+</header> <!-- section-header.// -->
+</section>
+
+
+<section class="section-window-chat">
+<header class="header-chat"> 
+    <button class="navbar-toggler btn-menu-chat" type="button" data-toggle="collapse" data-target="#menu_external">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="row no-gutters">
+      <div class="col-md-7">
+          <div class="title-chat-wrap">
+            <h2 class="title">Terapevt bilan muloqot</h2>
+             <p class="text-muted">Shifokor kun davomida sizga javob yozadi</p>
+          </div>
+      </div> <!-- col.// -->
+      <div class="col-md-5 text-md-right">
+         <a href="page-account-consult-detail.html" class="btn btn-sm btn-light">Tugatish</a>
+         <a href="" class="btn px-2 text-primary"> <i class="fa fa-lg fa-phone"></i></a>
+         <a href="" class="btn px-2 text-danger"> <i class="fa fa-lg fa-video"></i></a>
+         <a class="btn-account-user" href="page-account-user.html">  <span class="icon-avatar"><i class="fa fa-user"></i></span> </a>
+      </div> <!-- col.// -->
+    </div> <!-- row.// -->
+</header>
+
+<div class="row no-gutters"  style="height: calc(100vh - 91px)">
+  <aside class="col-md-3 relative chat-aside-left">
+   <div class="chat-left-wrap">
+      <article class="chat-user-info">
+        <img src="images/avatars/1.jpg" class="img-md img-avatar">
+      <h5 class="title">Ahmadbek Rustamov</h5>
+      <p class="text-muted">Tibbiyot fanlar nomzodi <br> Tajriba: 5 yil <br>  Akfa Medline clinics</p>
+
+      </article>
+   </div> <!-- chat-left-wrap.// -->
+  </aside>
+  <main class="col-md-9">
+    <div class="panel-history" style="">
+      <article class="chat-main-wrap">
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Salom Alisher aka, Men Terapevt, sizni nima bezovta qilyapti?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Salom doktor meni kasalligim shuki, oshqozonim kechasi ovqat yaxshi hazm qilmayapti, uxlolmayapman</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Tushunarli, Sizda demak oshqozon ovqat hazm qilish tizimida muammo bor ekan, Siz har kuni kechqurunlari nima ovqatlar iste'mol qilasiz? </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Asosan yog’li va go’shtli taomlar yeyman… :) </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Bunday ovqatlar sizga kechqurun tavsiya etilmaydi. Agar boshqa ovqat yeganda o’zingizni qanday his qilasiz?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Agar ovqatdan so'ng meva yesam yaxshi his qilaman, hazm qilish oson bo’ladi  </div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Tushunarli, Sizda demak oshqozon ovqat hazm qilish tizimida muammo bor ekan, Siz har kuni kechqurunlari nima ovqatlar iste'mol qilasiz? </div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Asosan yog’li va go’shtli taomlar yeyman… :) </div>
+        </div>
+         <div class="message-left">
+          <div class="img-wrap"><img src="images/avatars/1.jpg"></div>
+          <div class="text-wrap">Bunday ovqatlar sizga kechqurun tavsiya etilmaydi. Agar boshqa ovqat yeganda o’zingizni qanday his qilasiz?</div>
+        </div>
+        <div class="message-right">
+          <div class="text-wrap">Agar ovqatdan so'ng meva yesam yaxshi his qilaman, hazm qilish oson bo’ladi  </div>
+        </div>
+
+      </article>
+    </div> <!-- card-body.// -->
+    <div class="panel-bottom">
+       <textarea class="form-control" placeholder="Yozing dardingiz nima?"></textarea>
+       <div class="chat-btn-wrap">     
+         <button class="btn"> <i class="fas fa-lg fa-paperclip"></i> </button>
+         <button class="btn"> <i class="fas fa-lg fa-paper-plane"></i> </button>
+       </div> <!-- chat-btn-wrap.// -->
+    </div>
+    
+  </main>
+</div>
+
+</section>
+
+
+
+
+</body>
+</html>

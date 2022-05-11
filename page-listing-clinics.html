@@ -1,0 +1,642 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>Website title</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+
+}); 
+// jquery end
+</script>
+
+</head>
+<body>
+
+
+<div class="screen-overlay"></div>
+
+
+<nav id="offcanvas_bar" class="offcanvas-bar">
+  <button class="btn-close btn btn-sm"><i class="fa fa-times"></i></button>
+  
+  <a href="#" class="btn btn-round btn-primary btn-login"> Kirish </a>
+
+
+  <div class="dropdown d-inline-block">
+    <a href="#" data-toggle="dropdown" class="btn btn-round btn-outline-primary dropdown-toggle"> Uzb </a> 
+    <div class="dropdown-menu">
+      <a href="#" class="dropdown-item"> Rus </a>
+      <a href="#" class="dropdown-item"> Eng </a>
+    </div>
+   </div> <!-- dropdown.// -->
+   <hr> 
+  <ul class="nav-list">
+    <li class="nav-item"> <a href="#intro">Konsultatsiya</a>  </li>
+    <li class="nav-item active"> <a href="#features">Klinikalar</a>  </li>
+    <li class="nav-item"> <a href="#content">Vrachlar</a>  </li>
+    <li class="nav-item"><a href="#">Maqolalar</a></li>
+    <li class="nav-item"><a href="#">Ensiklopedia </a></li>
+    <li class="nav-item"><a href="#">Sanatoriyalar </a></li>
+    <li class="nav-item"><a href="">Bog'lanish</a></li>
+  </ul>
+
+  <a href="" class="btn btn-primary btn-block btn-round">Savol berish</a>
+</nav>
+<!-- offcanvas-bar.// -->
+
+
+<header class="section-header">
+    <div class="mobile-left"> <button data-offcanvas="#offcanvas_bar" data-overlay="true" class="btn btn-outline-primary btn-sm btn-hamburger">  <i class="fas fa-bars"></i> </button> </div>
+    <div class="left mobile-middle">
+        <a href="page-index.html" class="logo"><img src="images/logo.png" class="img-logo"></a>
+        <div class="lang-widget">
+            <a href="#" class="btn btn-sm dropdown-toggle"> Uzb </a> 
+            <div class="dropdown">
+              <a href="#" class="dropdown-item"> Rus </a>
+              <a href="#" class="dropdown-item"> Eng </a>
+            </div>
+        </div> <!-- dropdown.// -->
+    </div>  
+    <div class="middle">
+    <nav class="navbar-expand menu-header">
+      <ul class="nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="page-index.html">Konsultatsiya</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="page-listing-clinics.html">Klinikalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-doctors.html">Vrachlar</a>
+        </li>
+        <li class="nav-item dropdown" data-display="static"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ko'proq </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page-blog.html">Maqolalar</a></li>
+                <li><a class="dropdown-item" href="page-encyclopedia.html">Ensiklopedia </a></li>
+                <li><a class="dropdown-item" href="page-listing-clinics.html">Sanatoriyalar </a></li>
+                <li><a class="dropdown-item" href="">Bog'lanish</a></li>
+              </ul>
+          </li>
+      </ul>
+    </nav>
+    </div>
+    <div class="right">
+       <a class="btn btn-round btn-call btn-sm"> <span class="num">+998 71) 207-22-27</span> <span class="icon-call"> <i class="fa fa-phone"></i> </span> </a>
+       <a href="page-account-user.html" class="btn btn-round btn-primary btn-sm btn-login"> Kirish </a>
+       <a href="#" class="btn-search"> <i class="fa fa-search"></i> </a>
+    </div>
+</header> <!-- section-header.// -->
+
+
+<!-- ========================= SECTION PAGETOP ========================= -->
+<section class="section-pagetop bg-clinic">
+<div class="container clearfix">
+  <h2 class="title-page text-center mb-4">Klinikalar</h2>
+
+  <form>
+     <div class="form-search-page">
+       <div class="input-group">
+          <select class="form-control custom-select">
+             <option>Город Ташкент </option>
+             <option>Buxoro</option>
+             <option>Samarqand</option>
+             <option>Qashqadaryo</option>
+          </select>
+          <input type="text" class="form-control" name="" placeholder="Поиск клиник">
+      </div>
+      <button type="submit" class="btn-search-page"> <i class="fa fa-search"></i></button>
+     </div>
+  </form>
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION PAGETOP END// ========================= -->
+
+<section class="section-content padding-bottom bg">
+
+<div class="page-topbar">
+ <div class="container">
+ <nav class="nav nav-topbar justify-content-center">
+    <a href="#" class="nav-link active"> <strong>Mahalliy</strong> (1231) </a>
+    <a href="#" class="nav-link"> <strong>Xalqaro</strong> (32)</a>
+ </nav>
+ </div> <!-- container //  -->
+</div> <!-- page-topbar.// -->
+
+ <div class="container">
+
+<div class="row-sm">
+  <main class="col-md-9">
+
+
+<article class="card item-clinic">
+  <div class="card-body">
+    <div class="row-sm">
+      <aside class="col-md-3">
+        <img src="images/posts/clinics/1.jpg" class="rounded img-fluid mb-3">
+
+        <div class="timing">
+          <dl class="dlist-align">
+            <dt>Пн–Пт: </dt>
+            <dd>08:00-18:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Сб: </dt>
+            <dd>08:00-16:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Вс: </dt>
+            <dd>Выходной</dd>
+          </dl>
+        </div>
+      </aside>
+      <div class="col-md-9">
+        <h4 class="title">Mds-servis</h4>
+        <p>Медцентр, клиникамедицинская лаборатория</p>
+        <hr>
+        <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины оликлиническую и стационарную помощь по всем мировым стандартам современной медицины … </p>
+
+        
+        <div class="row">
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-phone"></i>
+              <p class="text">
+                +998 71 200-88-66  <br> +998 71 260-44-55
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-globe"></i>
+              <p class="text">
+                info@hayatmed.uz  <br> www.hayatmed.uz
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-map-marker"></i>
+              <p class="text">
+                Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+        </div>
+      </div> <!-- col.// -->
+    </div>
+     <a href="page-detail-clinic.html" class="btn btn-primary btn-block"> Подробности (Врачи, услуги )  </a>
+  </div> <!-- card-body.// -->
+</article> <!-- card item-clinks.// -->
+
+
+
+
+<article class="card item-clinic">
+  <div class="card-body">
+    <div class="row-sm">
+      <aside class="col-md-3">
+        <img src="images/posts/clinics/2.jpg" class="rounded img-fluid mb-3">
+
+        <div class="timing">
+          <dl class="dlist-align">
+            <dt>Пн–Пт: </dt>
+            <dd>08:00-18:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Сб: </dt>
+            <dd>08:00-16:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Вс: </dt>
+            <dd>Выходной</dd>
+          </dl>
+        </div>
+      </aside>
+      <div class="col-md-9">
+        <h4 class="title">Akfa Medline</h4>
+        <p>Медцентр, клиникамедицинская лаборатория</p>
+        <hr>
+        <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины оликлиническую и стационарную помощь по всем мировым стандартам современной медицины … </p>
+
+        
+        <div class="row">
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-phone"></i>
+              <p class="text">
+                +998 71 200-88-66  <br> +998 71 260-44-55
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-globe"></i>
+              <p class="text">
+                info@hayatmed.uz  <br> www.hayatmed.uz
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-map-marker"></i>
+              <p class="text">
+                Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+        </div>
+      </div> <!-- col.// -->
+    </div>
+     <a href="" class="btn btn-primary btn-block"> Подробности (Врачи, услуги )  </a>
+  </div> <!-- card-body.// -->
+</article> <!-- card item-clinks.// -->
+
+
+
+
+<article class="card item-clinic">
+  <div class="card-body">
+    <div class="row-sm">
+      <aside class="col-md-3">
+        <img src="images/posts/clinics/3.jpg" class="rounded img-fluid mb-3">
+
+        <div class="timing">
+          <dl class="dlist-align">
+            <dt>Пн–Пт: </dt>
+            <dd>08:00-18:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Сб: </dt>
+            <dd>08:00-16:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Вс: </dt>
+            <dd>Выходной</dd>
+          </dl>
+        </div>
+      </aside>
+      <div class="col-md-9">
+        <h4 class="title">Hayat medical</h4>
+        <p>Медцентр, клиникамедицинская лаборатория</p>
+        <hr>
+        <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины оликлиническую и стационарную помощь по всем мировым стандартам современной медицины … </p>
+
+        
+        <div class="row">
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-phone"></i>
+              <p class="text">
+                +998 71 200-88-66  <br> +998 71 260-44-55
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-globe"></i>
+              <p class="text">
+                info@hayatmed.uz  <br> www.hayatmed.uz
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-map-marker"></i>
+              <p class="text">
+                Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+        </div>
+      </div> <!-- col.// -->
+    </div>
+     <a href="" class="btn btn-primary btn-block"> Подробности (Врачи, услуги )  </a>
+  </div> <!-- card-body.// -->
+</article> <!-- card item-clinks.// -->
+
+
+
+
+
+<article class="card item-clinic">
+  <div class="card-body">
+    <div class="row-sm">
+      <aside class="col-md-3">
+        <img src="images/posts/clinics/1.jpg" class="rounded img-fluid mb-3">
+
+        <div class="timing">
+          <dl class="dlist-align">
+            <dt>Пн–Пт: </dt>
+            <dd>08:00-18:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Сб: </dt>
+            <dd>08:00-16:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Вс: </dt>
+            <dd>Выходной</dd>
+          </dl>
+        </div>
+      </aside>
+      <div class="col-md-9">
+        <h4 class="title">Shox med center</h4>
+        <p>Медцентр, клиникамедицинская лаборатория</p>
+        <hr>
+        <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины оликлиническую и стационарную помощь по всем мировым стандартам современной медицины … </p>
+
+        
+        <div class="row">
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-phone"></i>
+              <p class="text">
+                +998 71 200-88-66  <br> +998 71 260-44-55
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-globe"></i>
+              <p class="text">
+                info@hayatmed.uz  <br> www.hayatmed.uz
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-map-marker"></i>
+              <p class="text">
+                Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+        </div>
+      </div> <!-- col.// -->
+    </div>
+     <a href="page-detail-clinic.html" class="btn btn-primary btn-block"> Подробности (Врачи, услуги )  </a>
+  </div> <!-- card-body.// -->
+</article> <!-- card item-clinks.// -->
+
+
+
+
+
+<article class="card item-clinic">
+  <div class="card-body">
+    <div class="row-sm">
+      <aside class="col-md-3">
+        <img src="images/posts/clinics/1.jpg" class="rounded img-fluid mb-3">
+
+        <div class="timing">
+          <dl class="dlist-align">
+            <dt>Пн–Пт: </dt>
+            <dd>08:00-18:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Сб: </dt>
+            <dd>08:00-16:00</dd>
+          </dl>
+          <dl class="dlist-align">
+            <dt>Вс: </dt>
+            <dd>Выходной</dd>
+          </dl>
+        </div>
+      </aside>
+      <div class="col-md-9">
+        <h4 class="title">Mds-servis</h4>
+        <p>Медцентр, клиникамедицинская лаборатория</p>
+        <hr>
+        <p>Современная многопрофильная Клиника “ HAYAT ” оказывает диагностическую, амбулаторно-поликлиническую и стационарную помощь по всем мировым стандартам современной медицины оликлиническую и стационарную помощь по всем мировым стандартам современной медицины … </p>
+
+        
+        <div class="row">
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-phone"></i>
+              <p class="text">
+                +998 71 200-88-66  <br> +998 71 260-44-55
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-globe"></i>
+              <p class="text">
+                info@hayatmed.uz  <br> www.hayatmed.uz
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+          <div class="col-md">
+            <div class="icontext">
+              <i class="icon fa fa-map-marker"></i>
+              <p class="text">
+                Ташкент ул. Мевазор 5/14,   около  детской клиники ТашПМИ.
+              </p>
+            </div> <!-- icontext.// -->
+          </div> <!-- col.// -->
+        </div>
+      </div> <!-- col.// -->
+    </div>
+     <a href="page-detail-clinic.html" class="btn btn-primary btn-block"> Подробности (Врачи, услуги )  </a>
+  </div> <!-- card-body.// -->
+</article> <!-- card item-clinks.// -->
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+  </main>
+  <aside class="col-md-3">
+
+<div class="card sidebar-filter">
+  <div class="card-body">
+    <h5 class="title">По услугам </h5>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Педиатр</span>
+</label>
+
+<label class="item-filter  custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Диагностика мозга</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Полный рентген </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Скорая помощь </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">SPA</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Прививки</span>
+</label>
+
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Анализ крови </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Педиатр</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Диагностика мозга</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Полный рентген </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Скорая помощь </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">SPA</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Прививки</span>
+</label>
+
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Анализ крови </span>
+</label>
+
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Анализ крови </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Педиатр</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Диагностика мозга</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Полный рентген </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Скорая помощь </span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">SPA</span>
+</label>
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Прививки</span>
+</label>
+
+
+<label class="item-filter custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-label">Анализ крови </span>
+</label>
+
+<a href="#" class="btn btn-sm btn-light">Сброс </a>
+  </div> <!-- card-body.// -->
+</div> <!-- card card-body.// -->
+
+  </aside>
+</div>
+
+
+
+
+ </div> <!-- container //  -->
+</section>
+
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer bg-blue">
+  <section class="footer-top">
+     <div class="container">
+        <nav class="nav-footer nav justify-content-center">
+          <a href="" class="nav-link">Konsultatsiya</a>
+          <a href="" class="nav-link">Ensiklopedia</a>
+          <a href="" class="nav-link">Maqolalar</a>
+          <a href="" class="nav-link">Doktorlar uchun</a>
+          <a href="" class="nav-link">Servis haqida</a>
+          <a href="" class="nav-link">Bog'lanish</a>
+        </nav>
+     </div>
+  </section> <!-- footer-top .// -->
+  <section class="footer-bottom text-center">
+    <img src="images/misc/payment.png">
+    <p class="text-white mt-3">
+      © 2019 AskDoktor MCHJ xizmat ko’rsatadi <br>
+      Barcha huquqlar himoyalangan
+    </p>
+  </section> <!-- footer-bottom .// -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+</html>

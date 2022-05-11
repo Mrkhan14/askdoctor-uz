@@ -1,0 +1,33 @@
+/* --------------------- titles ---------------------- */
+.section-heading{ padding-bottom:30px; padding-top:10px;
+    .line{height:2px; display:inline-block; background-color:$danger; width:90px; line-height:1; }
+}
+
+.section-heading-sm{
+	padding-bottom:20px; padding-top:15px;
+	.title{ background-color:$bg }
+}
+
+.title-section{ font-size:36px; font-family:'Ubuntu', sans-serif; font-weight:500; margin-bottom:0; line-height:1.6 }
+.title-section-sm{ font-size:26px;  }
+
+.title-text{margin-top:45px; margin-bottom:20px;}
+
+.article{
+    p{line-height:1.6;}
+}
+
+
+.b{font-weight:600;}
+
+.white{color:#fff}
+.black, .dark{color:#000}
+
+
+/* ==================  title helpers ================ */
+.rtl{direction:rtl;}
+.ltr{direction:ltr;}
+
+
+.lh-sm{line-height: 1.2;}
+.lh-lg{line-height: 1.6;}

@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="by Vosidiy">
+
+<title>Website title</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+  // jQuery code
+
+  $('body').scrollspy({ 
+        target: '#nav-alphabet',
+        offset: 150
+  });
+
+
+}); 
+// jquery end
+</script>
+
+</head>
+<body>
+
+
+<div class="screen-overlay"></div>
+
+
+<nav id="offcanvas_bar" class="offcanvas-bar">
+  <button class="btn-close btn btn-sm"><i class="fa fa-times"></i></button>
+  
+  <a href="#" class="btn btn-round btn-primary btn-login"> Kirish </a>
+
+
+  <div class="dropdown d-inline-block">
+    <a href="#" data-toggle="dropdown" class="btn btn-round btn-outline-primary dropdown-toggle"> Uzb </a> 
+    <div class="dropdown-menu">
+      <a href="#" class="dropdown-item"> Rus </a>
+      <a href="#" class="dropdown-item"> Eng </a>
+    </div>
+   </div> <!-- dropdown.// -->
+   <hr> 
+  <ul class="nav-list">
+    <li class="nav-item"> <a href="#intro">Konsultatsiya</a>  </li>
+    <li class="nav-item"> <a href="#features">Klinikalar</a>  </li>
+    <li class="nav-item"> <a href="#content">Vrachlar</a>  </li>
+    <li class="nav-item"><a href="#">Maqolalar</a></li>
+    <li class="nav-item active"><a href="#">Ensiklopedia </a></li>
+    <li class="nav-item"><a href="#">Sanatoriyalar </a></li>
+    <li class="nav-item"><a href="">Bog'lanish</a></li>
+  </ul>
+
+  <a href="" class="btn btn-primary btn-block btn-round">Savol berish</a>
+</nav>
+<!-- offcanvas-bar.// -->
+
+
+<header class="section-header">
+    <div class="mobile-left"> <button data-offcanvas="#offcanvas_bar" data-overlay="true" class="btn btn-outline-primary btn-sm btn-hamburger">  <i class="fas fa-bars"></i> </button> </div>
+    <div class="left mobile-middle">
+        <a href="page-index.html" class="logo"><img src="images/logo.png" class="img-logo"></a>
+        <div class="lang-widget">
+            <a href="#" class="btn btn-sm dropdown-toggle"> Uzb </a> 
+            <div class="dropdown">
+              <a href="#" class="dropdown-item"> Rus </a>
+              <a href="#" class="dropdown-item"> Eng </a>
+            </div>
+        </div> <!-- dropdown.// -->
+    </div>  
+    <div class="middle">
+    <nav class="navbar-expand menu-header">
+      <ul class="nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="page-index.html">Konsultatsiya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-clinics.html">Klinikalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-listing-doctors.html">Vrachlar</a>
+        </li>
+        <li class="nav-item dropdown" data-display="static"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ko'proq </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page-blog.html">Maqolalar</a></li>
+                <li><a class="dropdown-item active" href="page-encyclopedia.html">Ensiklopedia </a></li>
+                <li><a class="dropdown-item" href="page-listing-clinics.html">Sanatoriyalar </a></li>
+                <li><a class="dropdown-item" href="">Bog'lanish</a></li>
+              </ul>
+          </li>
+      </ul>
+    </nav>
+    </div>
+    <div class="right">
+       <a class="btn btn-round btn-call btn-sm"> <span class="num">+998 71) 207-22-27</span> <span class="icon-call"> <i class="fa fa-phone"></i> </span> </a>
+       <a href="page-account-user.html" class="btn btn-round btn-primary btn-sm btn-login"> Kirish </a>
+       <a href="#" class="btn-search"> <i class="fa fa-search"></i> </a>
+    </div>
+</header> <!-- section-header.// -->
+
+
+<!-- ========================= SECTION PAGETOP ========================= -->
+<section class="section-pagetop bg-books">
+<div class="container clearfix">
+  <h2 class="title-page text-center mb-4">Ensiklopedia</h2>
+
+  <form>
+     <div class="form-search-page">   
+        <input type="text" class="form-control" name="" placeholder="Поиск">
+        <button type="submit" class="btn-search-page"> <i class="fa fa-search"></i></button>
+     </div>
+  </form>
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION PAGETOP END// ========================= -->
+
+<section class="section-content padding-bottom bg">
+
+<div class="page-topbar sticky-bar">
+ <div class="container">
+ <nav class="nav nav-topbar nav-alphabet justify-content-center" id="nav-alphabet">
+    <a href="#letter-a" class="page-scroll nav-link active"> A </a>
+    <a href="#letter-b" class="page-scroll nav-link"> B </a>
+    <a href="#letter-d" class="page-scroll nav-link"> D </a>
+    <a href="#letter-e" class="page-scroll nav-link"> E </a>
+    <a href="#letter-f" class="page-scroll nav-link"> F </a>
+    <a href="#letter-g" class="page-scroll nav-link"> G </a>
+    <a href="#letter-h" class="page-scroll nav-link"> H </a>
+    <a href="#" class="nav-link"> I </a>
+    <a href="#" class="nav-link"> J </a>
+    <a href="#" class="nav-link"> K </a>
+    <a href="#" class="nav-link"> L </a>
+    <a href="#" class="nav-link"> M </a>
+    <a href="#" class="nav-link"> N </a>
+    <a href="#" class="nav-link"> O </a>
+    <a href="#" class="nav-link"> P </a>
+    <a href="#" class="nav-link"> Q </a>
+    <a href="#" class="nav-link"> R </a>
+    <a href="#" class="nav-link"> S </a>
+    <a href="#" class="nav-link"> T </a>
+    <a href="#" class="nav-link"> U </a>
+    <a href="#" class="nav-link"> V </a>
+    <a href="#" class="nav-link"> X </a>
+    <a href="#" class="nav-link"> Y </a>
+ </nav>
+ </div> <!-- container //  -->
+</div> <!-- page-topbar.// -->
+
+<div class="container">
+
+<h5 class="title-letter" id="letter-a">A</h5>
+<ul class="list-words">
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+</ul>
+
+
+<h5 class="title-letter" id="letter-b">B</h5>
+<ul class="list-words">
+  <li><a href="#">Bakteria</a></li>
+  <li><a href="#">Begemot</a></li>
+  <li><a href="#">Bint haqida</a></li>
+  <li><a href="#">Baraban haqida</a></li>
+  <li><a href="#">Bosh miya</a></li>
+  <li><a href="#">Baliq go’shti</a></li>
+  <li><a href="#">Bioestoremodozediay</a></li>
+   <li><a href="#">Bakteria</a></li>
+  <li><a href="#">Begemot</a></li>
+  <li><a href="#">Bint haqida</a></li>
+  <li><a href="#">Baraban haqida</a></li>
+  <li><a href="#">Bosh miya</a></li>
+  <li><a href="#">Baliq go’shti</a></li>
+  <li><a href="#">Bioestoremodozediay</a></li>
+    <li><a href="#">Bakteria</a></li>
+  <li><a href="#">Begemot</a></li>
+  <li><a href="#">Bint haqida</a></li>
+  <li><a href="#">Baraban haqida</a></li>
+  <li><a href="#">Bosh miya</a></li>
+  <li><a href="#">Baliq go’shti</a></li>
+  <li><a href="#">Bioestoremodozediay</a></li>
+</ul>
+
+
+<h5 class="title-letter" id="letter-d">D</h5>
+<ul class="list-words">
+  <li><a href="#">Dori haqdia</a></li>
+  <li><a href="#">Dorilar haqida</a></li>
+  <li><a href="#">Darmon dori</a></li>
+  <li><a href="#">Dard va davo</a></li>
+  <li><a href="#">Doka boylash</a></li>
+  <li><a href="#">Dori haqdia</a></li>
+  <li><a href="#">Dorilar haqida</a></li>
+  <li><a href="#">Darmon dori</a></li>
+  <li><a href="#">Dard va davo</a></li>
+  <li><a href="#">Doka boylash</a></li>
+  <li><a href="#">Dori haqdia</a></li>
+  <li><a href="#">Dorilar haqida</a></li>
+  <li><a href="#">Darmon dori</a></li>
+  <li><a href="#">Dard va davo</a></li>
+  <li><a href="#">Doka boylash</a></li>
+</ul>
+
+
+<h5 class="title-letter" id="letter-e">E</h5>
+<ul class="list-words">
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+</ul>
+
+<h5 class="title-letter" id="letter-f">F</h5>
+<ul class="list-words">
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+</ul>
+
+
+<h5 class="title-letter" id="letter-g">G</h5>
+<ul class="list-words">
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+</ul>
+
+<h5 class="title-letter" id="letter-h">H</h5>
+<ul class="list-words">
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+  <li><a href="#">Аденома простаты</a></li>
+  <li><a href="#">Аденомиоз тела матки</a></li>
+  <li><a href="#">Алкоголизм</a></li>
+  <li><a href="#">Авитаминоз</a></li>
+</ul>
+
+
+ </div> <!-- container //  -->
+</section>
+
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer bg-blue">
+  <section class="footer-top">
+     <div class="container">
+        <nav class="nav-footer nav justify-content-center">
+          <a href="" class="nav-link">Konsultatsiya</a>
+          <a href="" class="nav-link">Ensiklopedia</a>
+          <a href="" class="nav-link">Maqolalar</a>
+          <a href="" class="nav-link">Doktorlar uchun</a>
+          <a href="" class="nav-link">Servis haqida</a>
+          <a href="" class="nav-link">Bog'lanish</a>
+        </nav>
+     </div>
+  </section> <!-- footer-top .// -->
+  <section class="footer-bottom text-center">
+    <img src="images/misc/payment.png">
+    <p class="text-white mt-3">
+      © 2019 AskDoktor MCHJ xizmat ko’rsatadi <br>
+      Barcha huquqlar himoyalangan
+    </p>
+  </section> <!-- footer-bottom .// -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+</html>
